@@ -1,5 +1,5 @@
 # WeatherPy_06
-Assignment 6
+
  
 This project consists of below files
  - Weatherpy.ipynb (code file using pandas,matplotlib and requests) 
