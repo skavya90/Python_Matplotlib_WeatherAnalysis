@@ -25,19 +25,19 @@ After some minor formatting of the DataFrame, visualizations were created with m
 For the purpose of this analysis, latitude will serve as the independent variable for several weather conditions. This will yield scatter plots that show visually how these weather conditions vary throughout Earth and reveal if there are any visible patterns.
 
 ## Latitude vs. Temperature
-![latvtemp](Output/lat_vs_temp.png)
+![latvtemp](Lat_vs_temp.png)
 
 
 ## Latitude vs. Humidity
-![latvhumd](Output/lat_vs_Humidity.png)
+![latvhumd](Lat_vs_Humidity.png)
 
 
 ## Latitude vs. Cloudiness
-![latvcloud](Output/lat_vs_cloudiness.png)
+![latvcloud](Lat_vs_cloudiness.png)
 
 
 ## Latitude vs. Wind Speed
-![latvwind](Output/lat_vs_windspeed.png)
+![latvwind](Lat_vs_windspeed.png)
 
 
 ### Finally, the cities found through the API call visualized on a map
