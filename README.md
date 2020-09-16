@@ -1,16 +1,14 @@
-# Pyweather Introduction
+# Introduction
 
-This project shows worldwide weather patterns visually based on geo coordinates. This category of data analysis in conjunction with other worldwide trends such as spending habits or crime rates may reveal many interesting and useful insights into the world we live in.
+This project visualizes worldwide weather patterns based on geo coordinates.
 
 # Overview of the Data
 
-Open weather map API was used to retrieve weather data for a list of 500+ cities. Information gathered included maximum temperature, humidity, cloudiness and wind speed. 
+Using open WeatherMap API, retrieved data that had max temperature, humidity, cloudiness and windspeed information for a list of over 500 cities. \
 
 ## Limitations of the Data
 
 Several iterations of the calls resulted in extreme outliers which upon closer inspection were not correct at the time the call was made. For example, one instance listed Parrita, Costa Rica as having a wind speed of 122 mph when the actual wind speed at the time was 7 mph. This is most likely a glitch existing on the open weather app. The x and y limitations of the scatter plots were adjusted to compensate where necessary.
-
-Because this analysis was done using city names and not coordinates there are large gaps in the data resulting from unpopulated areas not being included. This is most easily understood by viewing the gmap below.
 
 # Methods
 
@@ -40,17 +38,11 @@ For the purpose of this analysis, latitude will serve as the independent variabl
 ![latvwind](Lat_vs_windspeed.png)
 
 
-### Finally, the cities found through the API call visualized on a map
-
-When charting the above scatter plots there is a noticeable absence of cities located south of Latitude -60 and north of Latitude 75. It is also possible to see gaps in the data; these gaps remain approximately the same with different samples of random coordinates run through the Open Weather Map API. Laying the coordinates over a world map shows why this phenomenon is observed.
-![map](Output/map.png)
-
-
 # Results of Analysis
 
 Temperatures increase closer to the equator (0 latitude) with a sharp decline around 60 latitude and more disparate temperatures 40-60 latitude.
 
 Cloudiness and humidity do not have any observable trends between different latitudes.
 
-Wind speed also does not have a clear pattern based on latitude, though it appears that the highest speeds are the farthest south and farthest north. While this phenomenon is observed through several iterations, it is not necessarily experienced every time the data is pulled from the API.
+Wind speed also does not have a clear pattern based on latitude, though it appears that the highest speeds are at the farthest south and farthest north. While this phenomenon is observed through several iterations, it is not necessarily experienced every time the data is pulled from the API.
 
